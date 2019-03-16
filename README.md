@@ -15,7 +15,12 @@ It is Designed to run on ArchLinux.
     - Select the image you wish to flash on your CHIP.
     - You might be prompted for your sudo password.
     - The script should run automatically from this point on.
-    - Enjoy!
+
+## Further setup on the C.H.I.P
+When you boot in the C.H.I.P, in order to be use `apt-get update` make
+sure to remove the sources related to NextThing.co in
+`/etc/apt/sources.list`
+
   
 ## References
 * C.H.I.P tools taken from https://archive.org/details/C.h.i.p.FlashCollection

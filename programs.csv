@@ -1,0 +1,6 @@
+PACKAGE, PURPOSE
+curl,is used to download necessary files from the internet
+uboot-tools,are the U-Boot bootloader utility tools
+git,to clone git repositories
+android-tools,contains tools to flash the image
+sunxi-tools,are command line utilities to work with devices based on Allwinner SoCs

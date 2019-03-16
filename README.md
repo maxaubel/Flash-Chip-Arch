@@ -1,6 +1,6 @@
-# Flash-CHIP from Archlinux
+# Flash CHIP from Archlinux
 A script that simplyfies the flashing process for the C.H.I.P and PocketC.H.I.P Computer.
-Designed to run on ArchLinux.
+It is Designed to run on ArchLinux.
 
 ## Instructions
 1. Remove the C.H.I.P from its case (in case you have a Pocket C.H.I.P).

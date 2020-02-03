@@ -266,10 +266,10 @@ else
 
         log "== waiting for fastboot =="
         if wait_for_fastboot ${FASTBOOT_PORT}; then
-            fastboot ${FASTBOOT_PORT} -i 0x1f3a -u flash UBI ${SPARSE_UBI} > /dev/null
+            fastboot ${FASTBOOT_PORT} flash UBI ${SPARSE_UBI} > /dev/null
             assert_error 134
 
-            fastboot ${FASTBOOT_PORT} -i 0x1f3a continue > /dev/null
+            fastboot ${FASTBOOT_PORT} continue > /dev/null
             assert_error 135
         else
             exit 1

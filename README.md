@@ -1,6 +1,9 @@
 # Flash CHIP from Archlinux
 A script that simplyfies the flashing process for the C.H.I.P and PocketC.H.I.P Computer.
-It is Designed to run on ArchLinux.
+It is Designed to run on ArchLinux. Fixed some errors from an old script. (Check https://github.com/richardschembri/Flash-CHIP for more information). 
+
+## Disclaimer
+_Run these scripts at your own risk!_
 
 ## Instructions
 1. Remove the C.H.I.P from its case (in case you have a Pocket C.H.I.P).
@@ -8,7 +11,7 @@ It is Designed to run on ArchLinux.
 3. Connect the C.H.I.P micro USB port to a USB port of your ArchLinux machine.
 4. In the terminal of your ArchLinux machine run the following commands:
 5. Make sure that the LEDs beside the micro USB port of the C.H.I.P have turned on
-    - ` git clone https://github.com/richardschembri/Flash-CHIP` to clone this repository.
+    - ` git clone https://github.com/maxaubel/Flash-Chip-Arch` to clone this repository.
     - `cd` into the location where you stored this repository.
     - run `sudo chmod +x Flash.sh`
     - run `./Flash.sh`
@@ -25,3 +28,4 @@ sure to remove the sources related to NextThing.co in
 ## References
 * C.H.I.P tools taken from https://archive.org/details/C.h.i.p.FlashCollection
 * The script downloads the C.H.I.P images from http://chip.jfpossibilities.com/chip/
+* Adapted from the original version: https://github.com/richardschembri/Flash-CHIP
